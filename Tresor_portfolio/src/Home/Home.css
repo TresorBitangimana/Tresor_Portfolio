@@ -1,7 +1,8 @@
 
 
 .home-container{
-    width: 100vw;
+    /* change to vw  */
+    width: 100%;
     height: auto;
     height: auto;
     display: flex;
@@ -15,7 +16,7 @@
     width: auto;
     border: 1px solid var(--primary-color);
     border-radius: 20px;
-    padding: 3%;
+    margin-top: 2%;
     gap: 100px;
     border: none;
     display: flex;
@@ -31,12 +32,16 @@
     width: clamp(10vw, 30vw, 30vw);
     height: auto;
     /* border: 1px solid red; */
+    margin-bottom: 0;
 }
 
 .my-image{
     width: 30vw;
     height: auto;
     border-radius: 10px;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .information-container{
@@ -45,15 +50,33 @@
     padding: 10px;
     border-radius: 10px;
     /* border: 1px solid red; */
+    text-align: center;
+    align-content: center;
 }
 
 .about-me-description{
     color: var(--primary-color);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: clamp(.3em, 5vw, 3em);
     display: flex;
     justify-content: center;
 }
 .profile-description{
     font-size: clamp(.5em, 4vw, 1.2em);
+}
+
+.home-contants-container{
+    display: none;
+    /* width: 50%; */
+    width: clamp(30%, 50vw, 50%);
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+@media  screen and (max-width: 1200px) {
+    .home-contants-container{
+        display: block;
+    }
 }
