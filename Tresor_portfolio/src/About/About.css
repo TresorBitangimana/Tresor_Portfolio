@@ -4,4 +4,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.about-content-container{
+    height: 75vh;
+    height: 75dvh;
+    width: 60%;
+    margin-top: 2%;
+}
+
+.about-nav{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.about-nav ul li{
+    display: inline;
+    margin-right: 5%;
+    font-size: 2em;
+    user-select: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+.about-nav ul li:hover{
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.about-info-container{
+    height: 90%;
+    width: 100%;
+    border: 1px solid black;
 }
