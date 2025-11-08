@@ -26,7 +26,7 @@ function App() {
 
       <nav className="navagation" id="navagation">
         <div className="logo-container" id="logo-container">
-          <h1 className="logo" id="logo">Tresor bitangimana</h1>
+          <h1 className="logo" id="logo">Tresor Bitangimana</h1>
         </div>
         <div className="navagation-paths">
           <Link className="paths" to="/">Home</Link>

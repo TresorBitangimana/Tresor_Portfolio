@@ -35,19 +35,21 @@
 }
 
 .my-image-container{
-    width: clamp(10vw, 30vw, 30vw);
+    width: clamp(20vw, 30vw, 30vw);
     height: auto;
     /* border: 1px solid red; */
     margin-bottom: 0;
 }
 
 .my-image{
-    width: 30vw;
+    /* width: 30vw; */
+    width: clamp(20vw, 30vw, 30vw);
     height: auto;
     border-radius: 10px;
     display: block;
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 .information-container{
