@@ -25,7 +25,7 @@
 .about-nav ul li{
     display: inline;
     margin-right: 5%;
-    font-size: 2em;
+    font-size: clamp(1.2em, 3vw, 2em);
     user-select: none;
     color: var(--primary-color);
     font-weight: bold;
