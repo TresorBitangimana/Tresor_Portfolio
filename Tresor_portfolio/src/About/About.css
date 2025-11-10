@@ -24,8 +24,7 @@
 
 .about-nav ul li{
     display: inline;
-    margin-right: 5%;
-    font-size: clamp(1.2em, 3vw, 2em);
+    font-size: clamp(1.2em, 2vw, 2em);
     user-select: none;
     color: var(--primary-color);
     font-weight: bold;
@@ -34,7 +33,16 @@
 .about-nav ul li:hover{
     cursor: pointer;
     color: black;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
+}
+
+.about-paths{
+    border-right: 1px solid black;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+#about-more-info{
+    border-right: none;
 }
 
 .about-info-container{

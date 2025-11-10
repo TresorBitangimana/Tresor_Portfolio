@@ -52,10 +52,10 @@ function About(){
             <div className="about-content-container" id="about-content-container">
                 <nav className="about-nav" id="about-nav">
                     <ul>
-                        <li className="about-paths" id="about-paths" onClick={() => changeContent(1)}>Main</li>
-                        <li className="about-paths" id="about-paths" onClick={() => changeContent(2)}>Me</li>
-                        <li className="about-paths" id="about-paths" onClick={() => changeContent(3)}>Interest</li>
-                        <li className="about-paths" id="about-paths" onClick={() => changeContent(4)}>More-info</li>
+                        <li className="about-paths" id="about-main" onClick={() => changeContent(1)}>Main</li>
+                        <li className="about-paths" id="about-me" onClick={() => changeContent(2)}>Me</li>
+                        <li className="about-paths" id="about-interest" onClick={() => changeContent(3)}>Interest</li>
+                        <li className="about-paths" id="about-more-info" onClick={() => changeContent(4)}>More-info</li>
                     </ul>
                 </nav>
                 <div className="about-info-container">
