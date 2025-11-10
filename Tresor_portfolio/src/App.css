@@ -6,6 +6,8 @@
   --primary-color: rgb(68, 14, 107);
   --second-color: rgb(38, 10, 58);
   --hover-color:rgba(68, 14, 107, 0.077);
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 
 }
 
